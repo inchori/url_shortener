@@ -29,6 +29,7 @@ create database
 ```
 
 **3. application.yml 설정**
++ `src/main/resources/application.yml` 파일 설정
 ```yaml
 server:
   port: 8080
@@ -57,3 +58,9 @@ cd build/libs
 
 java -jar urlshortener-0.0.1-SNAPSHOT.jar
 ```
+
+## How To Run
+1. http://localhost:8080/index.html 접속
+2. 단축할 URL 입력
+3. [URL 단축] 버튼 클릭
+4. 결과 URL로 리다이렉트 원하신다면, http://localhost:8080/api/shorten/{단축된 URL} 웹 페이지에 입력
