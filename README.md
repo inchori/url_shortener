@@ -63,4 +63,11 @@ java -jar urlshortener-0.0.1-SNAPSHOT.jar
 1. http://localhost:8080/index.html 접속
 2. 단축할 URL 입력
 3. [URL 단축] 버튼 클릭
-4. 결과 URL로 리다이렉트 원하신다면, http://localhost:8080/api/shorten/{단축된 URL} 웹 페이지에 입력
+4. 결과 URL로 리다이렉트 원하신다면, http://localhost:8080/api/shorten/{단축된URL} 웹 페이지에 입력
+
+## ScreenShort
++ http://localhost:8080/index.html 접속 및 URL 단축
+<img width="457" alt="스크린샷 2021-11-04 오후 10 43 42" src="https://user-images.githubusercontent.com/49394875/140324214-6970ad4b-cbd1-4db7-a60b-3e02a251c288.png">
+
++ 단축된 URL로 리다이렉트
+<img width="445" alt="스크린샷 2021-11-04 오후 10 45 43" src="https://user-images.githubusercontent.com/49394875/140324605-f5941ea1-c952-4768-b83b-3f34ad6c754e.png">
