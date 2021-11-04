@@ -25,7 +25,7 @@ cd url_shortener
 ```bash
 mysql -uroot -p
 
-create database
+create database short_url
 ```
 
 **3. application.yml 설정**
