@@ -19,13 +19,10 @@ public class Url {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "url_id")
-    private int id;
+    private long id;
 
     @Column(name = "origin_url")
     private String originUrl;
-
-    @Column(name = "shorten_url")
-    private String shortenUrl;
 
     public static Url shorten(String originUrl) {
         return Url.builder()

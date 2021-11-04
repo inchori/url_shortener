@@ -14,7 +14,7 @@ public class UrlDto {
     @AllArgsConstructor(access = AccessLevel.PRIVATE)
     public static class urlRequest {
         @URL(message = "Invalid URL Format")
-        @NotEmpty
+        @NotEmpty(message = "Not null")
         private String url;
     }
 
